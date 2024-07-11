@@ -1,6 +1,7 @@
 # Elias Romero's Project Portfolio Page
 ## Welcome to Elias Romero's Portfolio!
 
-<link1> this leads to link 1?
-<link2> and this to link 2?
+[link here] (https://www.youtube.com/watch?v=dQw4w9WgXcQ)  
+
+[haha jk here] 
 yerp
