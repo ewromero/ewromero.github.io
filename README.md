@@ -1,2 +1,2 @@
 # ewromero.github.io
-Elias Romero's Project Portfolio
+Welcome to Elias Romero's Project Portfolio!
