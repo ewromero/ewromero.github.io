@@ -1,7 +1,7 @@
 # Elias Romero's Project Portfolio Page
 ## Welcome to Elias Romero's Portfolio!
 
-[link here](https://www.youtube.com/watch?v=dQw4w9WgXcQ)  
+[link here](https://ewromero.github.io/home.html)  
 
 [haha jk here] 
 yerp
