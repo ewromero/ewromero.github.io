@@ -8,4 +8,6 @@ My most recent project I've worked on is this [Stent Fatigue Tester](https://www
 ### For future, create/add:
 - HTML pages for each project I've done, including time range, description, CAD if applicable, skills learned 
 
-yerp
+Here is the link for my [ME 318 (Mechanical Vibrations) Double Pendulum Lab Report](https://www.youtube.com/watch?v=ncIsSG78-no)
+
+
