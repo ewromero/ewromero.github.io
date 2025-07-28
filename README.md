@@ -23,7 +23,7 @@ Lab Overview:
 
 [Wing Structure Lab](https://www.youtube.com/watch?v=cXoxizYDwoM)
 Lab Overview:
-- Similar to above, conducted Sine Sweep and Random Noise tests on a wing structure system, understanding the vibratory behavior of a more complex MDOF system
+- Conducted Sine Sweep and Random Noise tests on a wing structure system, understanding the vibratory behavior of a more complex MDOF system
 
 [Tuned Mass Damper Lab](https://www.youtube.com/watch?v=YX8oZDUJnY4)
 Lab Overview:
