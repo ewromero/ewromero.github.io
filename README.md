@@ -17,7 +17,8 @@ Course Projects:
 
 Extracurricular Projects:
 
-Stent Fatigue Tester, EMPOWER
+[Stent Fatigue Tester](empower.html)
+
 
 
 
