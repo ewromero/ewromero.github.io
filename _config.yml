@@ -1,5 +1,12 @@
 title: Elias Romero
 # logo: relative path of image you want 
 #description: to add text below your image
+github:
+  is_user_page: true
+# Add this
+navigation:
+  - title: "Home"
+    url: "/"
+
 show_downloads: true
 theme: jekyll-theme-minimal
