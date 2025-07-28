@@ -19,15 +19,11 @@
 - Studied the governing EOMs for a MDOF cart-pendulum system, used for modeling a building structure installed with a Tuned Mass Damper
 - Simulated the Tuned Mass Damper System in Matlab, specifically using ODE 45
 
-{% if site.navigation %}
-  <nav>
-    <ul>
-      {% for link in site.navigation %}
-        <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </nav>
-{% endif %}
+
+
+
+
+[🏠 Home Page](index.html)
 
 
 
