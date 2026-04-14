@@ -11,9 +11,9 @@
 
 Course Projects:
 
-[ME 318 (Mechanical Vibrations)](second-page.html)
+[ME 318 (Mechanical Vibrations)](me-318.md)
 
-
+[CSC 378 (Interactive Entertainment Engineering)](csc-378.md)
 
 Extracurricular Projects:
 
@@ -23,14 +23,6 @@ Extracurricular Projects:
 
 
 
-
-Past Internships:
-
-Data Analytics, Kargo
-
-Structural Engineer, EDG Architecture + Engineering
-
-Next??
 
 
 
