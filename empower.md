@@ -17,13 +17,13 @@ Project Link [here](https://www.cpempower.com/fdps?pgid=lnkl60a5-39d1a603-d68b-4
 
 [Final Project Pamphlet](2023-24_EMPOWER_Stent_Fatigue_Tester_Poster.pdf)
 
-<a href="(2023-24_EMPOWER_Stent_Fatigue_Tester_Poster.pdf" target="_blank" rel="noopener noreferrer">
+<a href="/ewromero.github.io/2023-24_EMPOWER_Stent_Fatigue_Tester_Poster.pdf" target="_blank" rel="noopener noreferrer">
   Final Project Pamphlet
 </a>
 
 
 
-<a href="(StentFatigueTester_DesignReport.pdf" target="_blank" rel="noopener noreferrer">
+<a href="/StentFatigueTester_DesignReport.pdf" target="_blank" rel="noopener noreferrer">
   Final System Documentation
 </a>
 
