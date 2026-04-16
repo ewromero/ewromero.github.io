@@ -15,7 +15,11 @@ Project Link [here](https://www.cpempower.com/fdps?pgid=lnkl60a5-39d1a603-d68b-4
 
 ## Final Pamphlet and Documentation
 
-[Final System Documentation](DocumentationofSystem.pdf)
+[Final Project Pamphlet](2023-24_EMPOWER_Stent_Fatigue_Tester_Poster.pdf)
+
+
+[Final System Documentation](StentFatigueTester_DesignReport.pdf)
+
 This includes X, Y, and Z
 
 [🏠 Home Page](README.html)
