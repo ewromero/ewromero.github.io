@@ -20,12 +20,13 @@ This was the first iteration of the nozzle that fed the water through our mock v
 The second iteration of the nozzle expanded upon the previous design, utilizing less material for a more efficient 3D print. The back flange panel has more support to withstand the vibration of our accordion assembly. Additionally, the number of screws was reduced in hopes of a better stress and load distribution.
 
 
-![Nozzle, Final Version](/SFT_Nozzle_Edit2)
+![Nozzle, V2](/SFT_Nozzle_Edit2)
 
 This was the final version of our nozzle. Key features to note are the sturdy frame and integrated screw holes through the converging geometry of the nozzle. This allowed for a larger entry diameter. Additionally, more intentional fillets are displayed throughout the piece, which made for an easier and more stable printing process. 
 
-XXX Insert Bellows System Pic Here XXX
-Acryllic plates were added and epoxied to the back plate and nozzle, to prevent water leaking from between the screws. The accordion component itself was manufactured from neoprene bellows, which allowed for elastic expansion and contraction guided by our voice coil motor.
+![Nozzle, Final Version](/SFT_Bellows)
+
+This is the final accordion assembly. Acryllic plates were added and epoxied to the back plate (which attached to our motor) and nozzle, to prevent water leaking from between the screws. The accordion component itself was manufactured from neoprene bellows, which allowed for elastic expansion and contraction guided by our voice coil motor.
 
 ![Tube Support](/SFT_Tubing_Support) 
 
