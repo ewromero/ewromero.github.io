@@ -10,7 +10,7 @@ Created to hold our thermal camera parallel to our induction surface, thus colle
 <div style="display:flex; gap:20px; justify-content:center; flex-wrap:wrap;">
   <img src="/Therm_left" style="height:400px; object-fit:cover;">
   <img src="/Therm_right" style="height:400px; object-fit:cover;">
-  <img src="/Therm_center" style="height:400px; object-fit:cover;">
+  <img src="/Therm_center" style="object-fit:cover;">
 </div>
 
 
