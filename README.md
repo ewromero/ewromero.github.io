@@ -17,6 +17,8 @@ Course Projects:
 
 [CSC 378 (Interactive Entertainment Engineering)](csc-378.md)
 
+[Senior Design Project](seniorproj.md)
+
 
 Extracurricular Projects:
 
