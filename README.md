@@ -12,8 +12,10 @@
 Course Projects:
 
 [ME 318 (Mechanical Vibrations)](me-318.md)
+[ME 305 (Introduction to Mechatronics)](me-305.md)
 
 [CSC 378 (Interactive Entertainment Engineering)](csc-378.md)
+
 
 Extracurricular Projects:
 
