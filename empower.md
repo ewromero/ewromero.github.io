@@ -5,12 +5,9 @@ This was a project with the EMPOWER club at Cal Poly (Endeavors to Move People O
 
 Project Link [here](https://www.cpempower.com/fdps?pgid=lnkl60a5-39d1a603-d68b-4beb-9e68-67054b906b6c) on the [EMPOWER website](https://www.cpempower.com/)
 
-## Role: Lead Mechanical Engineer
+#### Role: Lead Mechanical Engineer
 
-## Responsibilities:
-- Developing CAD Assembly
-
-## CAD (Computer-Aided Design) Models:
+## CAD (Computer-Aided Design) Models
 #### Below are some screenshots of CAD Models I developed for this project, using SolidWorks:
 
 
@@ -45,21 +42,26 @@ This assembly shows the fixture for our voice coil motor. The bottom and back ba
 
 
 
-## Final Pamphlet and Documentation:
+## Final Pamphlet and Documentation
 
 
-<a href="/2023-24_EMPOWER_Stent_Fatigue_Tester_Poster.pdf" target="_blank" rel="noopener noreferrer">
-  Final Project Pamphlet
-</a>
+<div>
+  <a href="/2023-24_EMPOWER_Stent_Fatigue_Tester_Poster.pdf" target="_blank" rel="noopener noreferrer">
+    Final Project Pamphlet
+  </a>
+</div>
+This was our final poster pamphlet, which we presented alongside our final design at the End of Year EMPOWER Showcase.
+</a><br><br>
+
+<div>
+  <a href="/StentFatigueTester_DesignReport.pdf" target="_blank" rel="noopener noreferrer">
+    Final System Documentation
+  </a>
+</div>
+This link provides an overview of our problem statement and design process, including the manufacturing of mechanical components and composition of our electrical subsystem.
 
 
-<a href="/StentFatigueTester_DesignReport.pdf" target="_blank" rel="noopener noreferrer">
-  Final System Documentation
-</a>
-
-
-This includes X, Y, and Z
-
+### Back to Home
 [🏠 Home Page](README.html)
 
 
