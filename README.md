@@ -4,10 +4,7 @@
 
 
 
-### For future, create/add:
-- HTML pages for each project I've done, including time range, description, CAD if applicable, skills learned
-- add explanation paragraph for Stent Fatigue Project
-- Maybe add ME 343 Lab Reports if they're good, to showcase my technical writing
+
 
 Course Projects:
 
