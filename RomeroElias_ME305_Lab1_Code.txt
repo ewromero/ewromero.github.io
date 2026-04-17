@@ -1,0 +1,112 @@
+;**************************************************************************************
+;* ME 305 Lab 1: Simple LED Blinker [includes LibV4.0]                                *              
+;**************************************************************************************
+
+;/------------------------------------------------------------------------------------\
+;| External Definitions                                                               |
+;\------------------------------------------------------------------------------------/
+; All labels that are referenced by the linker need an external definition
+
+              XDEF  main
+
+;/------------------------------------------------------------------------------------\
+;| External References                                                                |
+;\------------------------------------------------------------------------------------/
+; All labels from other files must have an external reference
+
+              XREF  ENABLE_MOTOR, STARTUP_MOTOR, UPDATE_MOTOR, DISABLE_MOTOR
+              XREF  STARTUP_PWM, STARTUP_ENCODER, READ_ENCODER, DISABLE_ENCODER
+              XREF  OUTDACA, OUTDACB
+              XREF  INITLCD, CLRSCREEN, SETADDR, GETADDR, CURSOR_ON, DISP_OFF
+              XREF  OUTCHAR, OUTCHAR_AT, OUTSTRING, OUTSTRING_AT
+              XREF  INITKEY, LKEY_FLG, GETCHAR
+              XREF  Entry, ISR_KEYPAD
+           
+;/------------------------------------------------------------------------------------\
+;| Assembler Equates                                                                  |
+;\------------------------------------------------------------------------------------/
+PORTT EQU $0240 ; input port for DELAY_CNT
+DDRT EQU $0242
+PORTP EQU $0258 ; output port for driving LEDs
+DDRP EQU $025A
+G_LED EQU %00010000 ; green LED output pin
+R_LED EQU %00100000 ; red LED output pin
+LED_MSK EQU %00110000 ; LED output pins
+
+;/------------------------------------------------------------------------------------\
+;| Variables in RAM                                                                   |
+;\------------------------------------------------------------------------------------/
+; The following variables are located in unpaged RAM
+
+DEFAULT_RAM: SECTION
+DELAY_CNT DS.B 1
+
+;/------------------------------------------------------------------------------------\
+;|  Main Program Code                                                                 |
+;\------------------------------------------------------------------------------------/
+;
+
+MyCode SECTION
+main: jsr SETUP ; jump to SETUP subroutine
+      bset PORTP, G_LED ;green LED on, red LED off              
+      jsr DELAY
+      bclr PORTP, G_LED ;green LED off              
+      jsr DELAY
+      bset PORTP, R_LED ;red LED on
+      jsr DELAY
+      bclr PORTP, R_LED ;red LED off
+      jsr DELAY
+      bset PORTP, LED_MSK ;green and red LED on
+      jsr DELAY
+      bclr PORTP, LED_MSK;green and red LED off
+      jsr DELAY
+
+      bra main
+
+
+;/------------------------------------------------------------------------------------\
+;| Subroutines                                                                        |
+;\------------------------------------------------------------------------------------/
+;-----------Delay-----------------------------------------------------------------
+DELAY:
+    ldaa PORTT ; (3) load 8-bit DELAY_CNT from PORTT
+    staa DELAY_CNT ; (3)
+OUTER: ; outer loop
+    ldaa DELAY_CNT ; (3)
+    cmpa #0 ; (1)
+    beq EXIT ; (1)
+    dec DELAY_CNT ; (4)
+    ldx #$0005 ; (2)
+MIDDLE: ; middle loop
+    cpx #0 ; (2)
+    beq OUTER ; (1)
+    dex ; (1)
+    ldy #$7710 ; (2)
+INNER: ; inner loop
+    cpy #0 ; (2)
+    beq MIDDLE ; (1)
+    dey ; (1)
+    bra INNER ; (3)
+EXIT:
+    rts ; (5) exit DELAY
+
+
+SETUP:
+; setup IO ports
+
+    clr DDRT ; set PORTT to input
+    bclr PORTP, LED_MSK ; initialize LEDs to off
+    bset DDRP,LED_MSK ; set LED pins to output
+    rts ; exit SETUP
+
+
+; end subroutine SETUP
+
+;/------------------------------------------------------------------------------------\
+;| Vectors                                                                            |
+;\------------------------------------------------------------------------------------/
+
+  ORG $FFFE ; reset vector address
+  DC.W Entry
+  ORG $FFCE ; Key Wakeup interrupt vector address [Port J]
+  DC.W ISR_KEYPAD
